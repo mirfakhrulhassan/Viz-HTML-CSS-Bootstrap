@@ -1,0 +1,23 @@
+.navbar-brand{
+    background: darkturquoise;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+      
+}
+
+/* body {
+
+    background: lightgray;
+
+} */
+
+#frontpic {
+   float: left
+}
+
+#fig-1 {
+    position: relative;
+  }
+
+
