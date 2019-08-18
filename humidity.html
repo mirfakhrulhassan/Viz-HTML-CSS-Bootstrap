@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Visualizatio Dashboard</title>
+  <title>Visualization Dashboard</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -47,7 +47,7 @@
       <div class="col-sm-12 col-md-7">
         <div class="heading">
           <section class = "main">
-            <h1>Humidity</h1>
+            <h3>Humidity</h3>
             <hr>
           <section id = "frontpic">
             <img id = "fig-2" width = '100%' height = '100%' src = "Resources\assets\images\Fig2.png" alt = "Latitude vs. Humidity"/> 
@@ -60,15 +60,29 @@
       </div>
       <div class="col-sm-12 col-md-5">
         <header>
-          <h1>Visualizations</h1>
+          <h4>Visualizations</h4>
           <hr>
         </header>
+        <div class = 'container'>
         <section id = "front-viz">
-                <a href = "max_temperature.html"> <img class = "fig-front" width = 200 height = 200 src = "Resources\assets\images\Fig1.png" alt = "Latitude vs. Max_Temperature"/></a>
-                <a href = "humidity.html"> <img id = "fig-front" width = 200 height = 200 src = "Resources\assets\images\Fig2.png" alt = "Latitude vs. Humidity"/></a>
-                <a href = "cloudiness.html"> <img id = "fig-front" width = 200 height = 200 src = "Resources\assets\images\Fig3.png" alt = "Latitude vs. Cloudiness"/></a>
-                <a href = "windspeed.html"> <img id = "fig-front" width = 200 height = 200 src = "Resources\assets\images\Fig4.png" alt = "Latitude vs. Wind Speed"/></a>
+            <div class = "row">
+                <div class="col-xs-3 col-sm-3 col-md-6">
+                  <a href = "max_temperature.html"> <img class = "fig-front" width = '100%' height = '100%' src = "Resources\assets\images\Fig1.png" alt = "Latitude vs. Max_Temperature"/></a>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-6">
+                  <a href = "humidity.html"> <img id = "fig-front" width = '100%' height = '100%' src = "Resources\assets\images\Fig2.png" alt = "Latitude vs. Humidity"/></a>
+                </div>
+             
+              
+                <div class="col-xs-3 col-sm-3 col-md-6">
+                  <a href = "cloudiness.html"> <img id = "fig-front" width = '100%' height = '100%' src = "Resources\assets\images\Fig3.png" alt = "Latitude vs. Cloudiness"/></a>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-6">
+                  <a href = "windspeed.html"> <img id = "fig-front" width = '100%' height = '100%' src = "Resources\assets\images\Fig4.png" alt = "Latitude vs. Wind Speed"/></a>
+                </div>
+              </div>
         </section>
+      </div>
       </div>
     </div>
 </div>
